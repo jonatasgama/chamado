@@ -67,8 +67,8 @@ class Usuario extends CI_Controller {
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
 		$mail->SMTPSecure = 'tls';
-		$mail->Username = 'gamasouza.jonatas@gmail.com';
-		$mail->Password = 'Gabi16092012';
+		$mail->Username = 'user';
+		$mail->Password = 'password';
 		$mail->Port = 587;
 
 		//configurações do destinatário
